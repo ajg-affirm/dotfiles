@@ -1,8 +1,10 @@
 # Path
 export PATH="/opt/homebrew/bin:$PATH"
 
+setopt globdots
+
 # Basic aliases
-alias ll='ls -lah'
+alias ll='ls -lahi'
 alias ..='cd ..'
 alias ...='cd ../..'
 
@@ -10,10 +12,6 @@ alias ...='cd ../..'
 mkcd() {
   mkdir -p "$1" && cd "$1"
 }
-
-# Quick navigation
-alias dev='cd ~/Developer'
-alias proj='cd ~/Developer/projects'
 
 # Load Oh My Zsh (will be installed by run_once script)
 export ZSH="$HOME/.oh-my-zsh"
