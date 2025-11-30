@@ -8,3 +8,4 @@ alias ll='ls -lahi'
 alias ..='cd ..'
 alias ...='cd ../..'
 
+export PATH="$HOME/.local/bin:$PATH"
