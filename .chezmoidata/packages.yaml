@@ -1,5 +1,7 @@
 packages:
   darwin:
+    taps:
+      - jandedobbeleer/oh-my-posh
     brews:
       - git
       - wget
@@ -9,5 +11,6 @@ packages:
       - ripgrep
       - fzf
       - neovim
+      - oh-my-posh
     casks:
       - iterm2
