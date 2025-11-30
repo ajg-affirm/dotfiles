@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install Homebrew packages
-brew bundle install --global
+brew bundle install
 
 # Install Oh My Zsh if not present
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
