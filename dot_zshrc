@@ -29,3 +29,8 @@ source $BREW_PREFIX/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # p10k config managed by chezmoi (dot_p10k.zsh)
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+
+# Affirm MCP env
+[ -f "$HOME/.config/affirm/mcp.env" ] && set -a && . "$HOME/.config/affirm/mcp.env" && set +a
+
